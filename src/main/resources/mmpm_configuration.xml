@@ -1,0 +1,11 @@
+<Configuration>
+  <DomainFile>jbt_mmpm_domain.xml</DomainFile>
+  <ModelActionsPackage>org.jbt.example.model.actions</ModelActionsPackage>
+  <ModelConditionsPackage>org.jbt.example.model.conditions</ModelConditionsPackage>
+  <ModelActionsOutputDirectory>./model/actions</ModelActionsOutputDirectory>
+  <ModelConditionsOutputDirectory>./model/conditions</ModelConditionsOutputDirectory>
+  <ExecutionActionsPackage>org.jbt.example.execution.actions</ExecutionActionsPackage>
+  <ExecutionConditionsPackage>org.jbt.example.execution.conditions</ExecutionConditionsPackage>
+  <ExecutionActionsOutputDirectory>./execution/actions</ExecutionActionsOutputDirectory>
+  <ExecutionConditionsOutputDirectory>./execution/conditions</ExecutionConditionsOutputDirectory>
+ </Configuration>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree>
+  <Node id="Node_0" name="jbt_example" type="Root">
+    <Children>
+      <Node id="Node_1" type="Sequence">
+        <Children>
+          <Node id="Node_2" type="Selector">
+            <Children>
+              <Node id="Node_8" type="Sequence">
+                <Children>
+                  <Node id="Node_3" name="IsDoorClosed" type="Condition" />
+                  <Node id="Node_4" name="OpenDoor" type="Action" />
+                  <Node id="Node_5" name="PassThroughDoor" type="Action">
+                    <Parameters>
+                      <Parameter name="PassThroughDoor_InputParameter" fromcontext="true">PassThroughDoor_InputParameter</Parameter>
+                    </Parameters>
+                  </Node>
+                </Children>
+              </Node>
+              <Node id="Node_7" name="PassThroughDoor" type="Action">
+                <Parameters>
+                  <Parameter name="PassThroughDoor_InputParameter" fromcontext="true">PassThroughDoor_InputParameter</Parameter>
+                </Parameters>
+              </Node>
+            </Children>
+          </Node>
+        </Children>
+      </Node>
+    </Children>
+  </Node>
+</Tree>
+

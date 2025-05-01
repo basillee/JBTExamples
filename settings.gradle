@@ -1,0 +1,4 @@
+rootProject.name = 'JBTExamples'
+
+include ":JBTCore"
+project(":JBTCore").projectDir = new File("./JBTCore")

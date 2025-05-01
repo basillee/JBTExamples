@@ -1,0 +1,15 @@
+<Domain name="VRS" classname="VRSDomain" package="vrs_mmpm">
+    <GoalSet/>
+    <EntitySet/>
+    <ActionSet>
+        <Action name="PassThroughDoor">
+            <Parameter type="OBJECT"
+                       name="PassThroughDoor_InputParameter"/>
+        </Action>
+        <Action name="OpenDoor"/>
+    </ActionSet>
+    <SensorSet>
+        <Sensor name="IsDoorClosed" type="BOOLEAN">
+        </Sensor>
+    </SensorSet>
+</Domain>

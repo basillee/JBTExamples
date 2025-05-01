@@ -1,0 +1,12 @@
+<Configuration>
+    <BTLibrary>
+        <BTFile>jbt_example.xbt</BTFile>
+        <DomainFile>jbt_mmpm_domain.xml</DomainFile>
+        <ModelActionsPackage>org.jbt.example.model.actions</ModelActionsPackage>
+        <ModelConditionsPackage>org.jbt.example.model.conditions</ModelConditionsPackage>
+        <LibraryClassName>ExampleTree</LibraryClassName>
+        <LibraryPackage>org.jbt.example</LibraryPackage>
+        <LibraryOutputDirectory>./org/jbt/example/</LibraryOutputDirectory>
+    </BTLibrary>
+</Configuration>
+ 
